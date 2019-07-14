@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  div{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  header{
+    background-color: #ddd;
+  }
+  #btn{
+    align-self: left;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+  }
+ body{
+   background-image: url("http://www.jericho-city.ps/library/images/img.jpg");
+    background-repeat: no-repeat;
+   background-size: 100%;
+    
+  }
+  blockquote{
+    box-align:left;
+    background-color:burlywood; 
+    font-weight: bold;
+    background-attachment: fixed;
+    width: 420px;
+
+  }
+  footer{
+    text-align: center;
+  }
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+.success:visited{background-color: darkgreen;}
+.success:active{background: mediumseagreen;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+.info:visited{background-color:blue;}
+.info:active{background: darkmagenta;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+.warning:visited{background-color: darkgoldenrod;}
+.warning:active{background: darkkhaki;}
+
+.danger {background-color: #e0ca00;} /* Red */ 
+.danger:hover {background: #da190b;}
+.danger:visited{background-color:darkred;}
+.danger:active{background:lightcoral;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+.default:visited{background: darkseagreen;}
+.default:active{background: lightgreen;}
+</style>
+</head>
+<body>
+<header>
+<h1>مدرسة الأمل الابتدائية</h1>
+<div>
+
+<button class="btn success"><a href="eee.html">الصفحة الرئيسية</a></button>
+<button class="btn info"><a href="malak.html">الملاك</a></button>
+<button class="btn warning" ><a href="ddd.html"> القاعات الدراسية</a> </button>
+<button class="btn danger"><a href="effect.html">النشاطات</a></button>
+<button class="btn default"><a href="aaaa.html"> للأستفسار</a></button>
+</div>
+<br>
+</header>
+<br><br><br>
+
+<blockquote>
+  <p>
+    <pre style="font-size: 20px">
+     التعليم هو ليسَ تعلم الحقائق, أنما 
+      هو تدريب العقل على التفكير
+     
+          <footer>البرت انشتاين</footer>
+     </pre>
+  </p>
+</blockquote>
+<br><br><br><br><br>
+
+   <footer>
+     <p style="color:white; font-weight: bold">
+      لمتابعة نشاطات المدرسة الاسبوعية, يمكنكم الاشتراك بقناتنا على اليوتيوب
+      </p>
+      <button id="btn">مدرسة الامل</button> 
+   </footer>
+
+
+</body>
+</html>
